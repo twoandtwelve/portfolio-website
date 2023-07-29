@@ -30,7 +30,7 @@ const AboutSection = () => {
             </h1>
             <p>Hi, I&#39;m Jacky. </p>
             <br />
-            <p>paragraph here</p>
+            <p>paragraph here wad</p>
             <br />
             <p>paragraph here</p>
             <br />
