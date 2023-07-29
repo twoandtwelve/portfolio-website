@@ -7,7 +7,7 @@ import { HiArrowDown } from "react-icons/hi";
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-52">
+      <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-22">
         <div className="md:w-1/2 md:mt-2">
           <Image
             className="rounded-full shadow-2xl"
@@ -22,14 +22,15 @@ const HeroSection = () => {
             Hi, I&#39;m Jacky
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+            I am a{" "}
             <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+              Software Engineering{" "}
             </span>
-            wad wad wad.
+            student currently in my second year at the University of Auckland,
+            New Zealand.
           </p>
           <Link
-            to="projects"
+            to="about"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
@@ -37,11 +38,11 @@ const HeroSection = () => {
             offset={-100}
             duration={500}
           >
-            Projects
+            Learn more about me
           </Link>
         </div>
       </div>
-      <div className="flex flex-row justify-center">
+      <div className="flex flex-row items-center text-center justify-center">
         <Link
           to="about"
           activeClass="active"

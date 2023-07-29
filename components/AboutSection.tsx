@@ -4,10 +4,13 @@ import Image from "next/image";
 const skills = [
   { skill: "JAVA" },
   { skill: "C" },
-  { skill: "MATLAB" },
   { skill: "Python" },
+  { skill: "MATLAB" },
+  { skill: "HTML" },
+  { skill: "CSS" },
   { skill: "Typescript" },
   { skill: "Next.js" },
+  { skill: "React" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
 ];
@@ -20,48 +23,22 @@ const AboutSection = () => {
           About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
         </h1>
-        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10">
-          <div className="md:w1/2">
+        <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
+          <div className="md:w-3/5">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get to know me
             </h1>
-            <p>
-              Hi, my name is Jacky and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in wad.
-            </p>
+            <p>Hi, I&#39;m Jacky. </p>
             <br />
-            <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
-            </p>
+            <p>paragraph here</p>
             <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
+            <p>paragraph here</p>
             <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
-            </p>
+            <p>paragraph here</p>
           </div>
-          <div className="md:w1/2">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              My Skills
-            </h1>
-            <div className="flex flex-wrap flex-row justify-center md:justify-start">
+          <div className="text-center md:w-2/5 md:text-left">
+            <h1 className="text-2xl font-bold mb-6">My Skills</h1>
+            <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
               {skills.map((item, idx) => {
                 return (
                   <p
@@ -73,7 +50,6 @@ const AboutSection = () => {
                 );
               })}
             </div>
-            <Image src="/temp2.jpg" alt="" width={325} height={325} />
           </div>
         </div>
       </div>
