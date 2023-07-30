@@ -30,11 +30,11 @@ const AboutSection = () => {
             </h1>
             <p>Hi, I&#39;m Jacky. </p>
             <br />
-            <p>paragraph here wad</p>
+            <p>temp</p>
             <br />
-            <p>paragraph here</p>
+            <p>temp</p>
             <br />
-            <p>paragraph here</p>
+            <p>temp</p>
           </div>
           <div className="text-center md:w-2/5 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
